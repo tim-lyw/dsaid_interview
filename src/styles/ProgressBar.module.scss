@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+$font: 'Roboto', sans-serif;
+
+.bar{
+    height: 20;
+    width: 100%;
+    background-color: black;
+    border-radius: 50;
+    margin: 50;
+}
+.progress{
+    height: 100%;
+    background-color: #cbe5ff;
+    border-radius: inherit;
+    text-align: right;
+}
+.percentage{
+    padding: 5;
+    color: black;
+    font-weight: bold;
+    user-select: none;
+    font-family: $font;
+    padding: 5px;
+}

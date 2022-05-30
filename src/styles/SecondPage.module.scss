@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+$font: "Roboto", sans-serif;
+
+.termsAndConditions {
+    color: white;
+    font-family: $font;
+    font-size: 17px;
+    text-align: justify;
+    display: block;
+    width: 400px;
+    margin: 35px auto;
+}
+.accept {
+    color: white;
+    font-family: $font;
+    font-size: 18px;
+}
+.acceptDiv {
+    text-align: center;
+}
+.backButton {
+    float: left;
+    padding: 10px;
+    width: 100px;
+    margin: 30px auto 50px auto;
+    font-family: $font;
+    font-size:15px;
+
+}
+.uploadButton {
+    float: right;
+    padding: 10px;
+    width: 100px;
+    margin: 30px auto 50px auto;
+    font-family: $font;
+    font-size:15px;
+}
+.buttonDiv {
+    width: 50%;
+    margin: auto;
+    
+}
